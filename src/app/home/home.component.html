@@ -1,0 +1,33 @@
+<div class="content">
+  <div class="global-wrapper">
+    <header class="global-header">
+      <h1 class="main-heading">
+        {{ headingTag }}
+      </h1>
+    </header>
+    <div class="bio">
+      <div
+        class="gatsby-image-wrapper bio-avatar"
+        style="width: 50px; height: 50px"
+      >
+        <img src="../../assets/clemsonheadshot.jpg" alt="profile-picture" />
+      </div>
+      <p>
+        {{ headLine }}<strong>{{ name }}</strong
+        >{{ headLine2
+        }}<a
+          href="{{ twitterLink }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ twitter }}</a
+        >
+      </p>
+    </div>
+    <ul (click)="(links$)">
+      <li *ngFor="let page of links$ | async">
+        <a href="{{ page.route }}">{{ page.title }}</a>
+      </li>
+    </ul>
+    <footer>&copy; {{ currentYear }}, {{ name }}</footer>
+  </div>
+</div>
