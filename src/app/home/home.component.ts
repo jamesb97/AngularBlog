@@ -14,9 +14,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     //debug the current pages
-    this.links$.subscribe((links) => {
+    /*this.links$.subscribe((links) => {
       console.log(links);
-    });
+    });*/
   }
   headingTag = 'Tech Blog';
   headLine = 'Written by ';

@@ -26,6 +26,10 @@
     <ul (click)="(links$)">
       <li *ngFor="let page of links$ | async">
         <a href="{{ page.route }}">{{ page.title }}</a>
+        <br />
+        {{ page.slug }}
+        <br />
+        {{ page.slugs }}
       </li>
     </ul>
     <footer>&copy; {{ currentYear }}, {{ name }}</footer>
