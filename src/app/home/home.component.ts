@@ -24,5 +24,9 @@ export class HomeComponent implements OnInit {
   headLine2 = ' who lives and works in Atlanta, GA building useful things. ';
   twitterLink = 'https://twitter.com/zdravko6t5';
   twitter = 'You should follow them on Twitter';
+  CreationsLink = 'https://www.zdravko6t5.website';
+  Creations = 'Creations';
+  DesignsLink = 'https://jamesb97-designpage-78.netlify.app/';
+  Designs = 'Designs';
   currentYear: number = new Date().getFullYear();
 }
