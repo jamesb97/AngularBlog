@@ -7,13 +7,15 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { BioComponent } from './bio/bio.component';
 import { HeadingComponent } from './heading/heading.component';
 import { FooterComponent } from './footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BioComponent,
     HeadingComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
