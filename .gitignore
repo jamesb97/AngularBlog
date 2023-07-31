@@ -2,6 +2,7 @@
 
 # Compiled output
 /dist/my-blog
+/dist
 /tmp
 /out-tsc
 /bazel-out
