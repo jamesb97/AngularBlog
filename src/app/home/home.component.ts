@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   twitter = 'You should follow them on Twitter';
   CreationsLink = 'https://www.zdravko6t5.website';
   Creations = 'Creations';
-  DesignsLink = 'https://jamesb97-designpage-78.netlify.app/';
+  DesignsLink = 'https://angulardesigns-aaa7c.web.app/';
   Designs = 'Designs';
   currentYear: number = new Date().getFullYear();
 }

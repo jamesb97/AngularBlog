@@ -8,7 +8,6 @@ import { BioComponent } from './bio/bio.component';
 import { HeadingComponent } from './heading/heading.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { CloudinaryModule } from '@cloudinary/ng';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoadingInterceptor } from './loading.interceptor';
@@ -22,13 +21,7 @@ import { LoadingInterceptor } from './loading.interceptor';
     PageNotFoundComponent,
     SpinnerComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ScullyLibModule,
-    CloudinaryModule,
-    HttpClientModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, ScullyLibModule, HttpClientModule],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
