@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   headLine2 = ' who lives and works in Atlanta, GA building useful things. ';
   twitterLink = 'https://twitter.com/zdravko6t5';
   twitter = 'You should follow them on Twitter';
-  CreationsLink = 'https://www.zdravko6t5.website';
+  CreationsLink = 'https://www.zdravko6t5.site';
   Creations = 'Creations';
   DesignsLink = 'https://angulardesigns-aaa7c.web.app/';
   Designs = 'Designs';
