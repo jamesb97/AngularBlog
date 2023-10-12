@@ -14,6 +14,6 @@ export class BioComponent implements OnInit {
   headLine = 'Written by ';
   name = 'Zdravko Bozhkov';
   headLine2 = ' who lives and works in Atlanta, GA building useful things. ';
-  twitterLink = 'https://twitter.com/zdravko6t5';
-  twitter = 'You should follow them on Twitter';
+  twitterLink = 'https://twitter.com/x6t517902';
+  twitter = 'You should follow them on X';
 }

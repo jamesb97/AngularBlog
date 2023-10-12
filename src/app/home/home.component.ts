@@ -24,8 +24,8 @@ export class HomeComponent implements OnInit {
   headshot =
     'https://firebasestorage.googleapis.com/v0/b/techblog-e0db2.appspot.com/o/clemsonheadshot.jpg?alt=media&token=6d6264f2-42f7-47e4-a365-6e8dbf0f3d5e';
   headLine2 = ' who lives and works in Atlanta, GA building useful things. ';
-  twitterLink = 'https://twitter.com/zdravko6t5';
-  twitter = 'You should follow them on Twitter';
+  twitterLink = 'https://twitter.com/x6t517902';
+  twitter = 'You should follow them on X';
   CreationsLink = 'https://www.zdravko6t5.site';
   Creations = 'Creations';
   DesignsLink = 'https://angulardesigns-aaa7c.web.app/';
